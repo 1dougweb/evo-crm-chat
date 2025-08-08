@@ -1,1 +1,10 @@
 project_id = "tflzdretffnqzjnqetku"
+
+[functions.evolution-webhook]
+verify_jwt = false
+
+[functions.evolution-send-message]
+verify_jwt = true
+
+[functions.evolution-instance-manager]
+verify_jwt = true
